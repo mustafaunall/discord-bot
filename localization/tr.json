@@ -1,0 +1,30 @@
+{
+    "console_logs": {
+        "command_loaded": "adlı komut başarıyla yüklendi!",
+        "helper_loaded": "adlı yardımcı başarıyla yüklendi!",
+        "schedule_loaded": "adlı zamanlı iş başarıyla yüklendi!"
+    },
+    "commands" : {
+        "help" : {
+            "title" : "HELP",
+            "name" : "help",
+            "color" : "GREEN"
+        },
+        "ping" : {
+            "title" : "Pong! 🏓",
+            "name" : "ping",
+            "desc" : "Ping-pong",
+            "color" : "YELLOW",
+            "latencyfield" : "Latency",
+            "apifield" : "API Latency"
+        },
+        "uptime" : {
+            "title" : "Uptime",
+            "name" : "uptime",
+            "desc" : "Getting Uptime",
+            "color" : "RED",
+            "field" : "Uptime : "
+        },
+        "not_found": "Böyle bir komut bulunamadı!"
+    }
+}

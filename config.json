@@ -1,0 +1,11 @@
+{
+    "prefix": "!",
+    "bot_token": "",
+    "localization_file": "tr.json",
+    "specific_channel": "no",
+    "channel_id": "your_channel_id",
+    "channel_rename_interval": 360,
+    "vip_role": ["1", "2"],
+    "emoji_happy" : "😊",
+    "emoji_sad" : "🥺"
+  }

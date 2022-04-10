@@ -1,0 +1,30 @@
+{
+    "console_logs": {
+        "command_loaded": "named command has been loaded successfully!",
+        "helper_loaded": "named helper has been loaded successfully!",
+        "schedule_loaded": "named schedule has been loaded successfully!"
+    },
+    "commands" : {
+        "help" : {
+            "title" : "HELP",
+            "name" : "help",
+            "color" : "GREEN"
+        },
+        "ping" : {
+            "title" : "Pong! 🏓",
+            "name" : "ping",
+            "desc" : "Ping-pong",
+            "color" : "YELLOW",
+            "latencyfield" : "Latency",
+            "apifield" : "API Latency"
+        },
+        "uptime" : {
+            "title" : "Uptime",
+            "name" : "uptime",
+            "desc" : "Getting Uptime",
+            "color" : "RED",
+            "field" : "Uptime : "
+        },
+        "not_found": "This command does not exist"
+    }
+}
