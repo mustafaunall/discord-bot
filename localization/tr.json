@@ -7,10 +7,10 @@
     },
     "commands" : {
         "help" : {
-            "title" : "HELP",
+            "title" : "Botumuzdaki Komutlar",
             "name" : "help",
             "color" : "GREEN",
-            "desc" : "Yardım komutu"
+            "desc" : "Komutları listeler"
         },
         "ping" : {
             "title" : "Pong! 🏓",
@@ -23,9 +23,15 @@
         "uptime" : {
             "title" : "Uptime",
             "name" : "uptime",
-            "desc" : "Şu anki uptime",
+            "desc" : "Botun ne kadar zamandır çalışır olduğunu yazar",
             "color" : "RED",
             "field" : "Uptime : "
+        },
+        "rep": {
+            "title" : "Rep",
+            "name" : "rep",
+            "desc" : "Kullanıcının birbirlerine +/- puanlama yapmasını sağlar",
+            "color" : "RED"
         },
         "not_found": "Böyle bir komut bulunamadı!"
     }

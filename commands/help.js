@@ -3,10 +3,13 @@ const config = require('../config.json')
 const localization = require(`../localization/${config.localization_file}`)
 
 module.exports.info = {
-    'title': localization.commands.help.title,
-    'name': localization.commands.help.name,
-    'color': localization.commands.help.color,
-}
+  title: localization.commands.help.title,
+  name: localization.commands.help.name,
+  color: localization.commands.help.color,
+  desc: localization.commands.help.desc,
+};
+
+const excludingCommandNames = ['ping', 'uptime'];
 
 module.exports.execute = async (client, message) => {
     const embed = new MessageEmbed()
@@ -14,7 +17,7 @@ module.exports.execute = async (client, message) => {
         .setColor(this.info.color)
     
     await client.commands.forEach(command => {
-        if (command.info.desc && command.info.name != 'ping' && command.info.name != 'uptime')
+        if (command.info.desc && !excludingCommandNames.includes(command.info.name))
             embed.addField(`${client.config.prefix}${command.info.name}`, command.info.desc)
     })
 

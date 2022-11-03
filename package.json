@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^13.6.0",
-    "node-schedule": "^2.1.0"
+    "node-schedule": "^2.1.0",
+    "parse-ms": "^3.0.0",
+    "parse-ms-commonjs": "^1.1.0"
   }
 }
