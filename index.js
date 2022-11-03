@@ -16,7 +16,7 @@ client.schedule = new Collection()
 client.helpers = {}
 
 client.on('ready', () => {
-    console.log(`Logged in as ${client.user.tag}`)
+    console.log(client.localization.logged_in.toString().replace('{{BOT}}', client.user.tag))
 })
 
 const helperFiles = fs.readdirSync('./helpers').filter(file => file.endsWith('.js'))

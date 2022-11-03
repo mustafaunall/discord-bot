@@ -1,4 +1,5 @@
 {
+    "logged_in": "{{BOT}} olarak giriş yapıldı",
     "console_logs": {
         "command_loaded": "adlı komut başarıyla yüklendi!",
         "helper_loaded": "adlı yardımcı başarıyla yüklendi!",
@@ -8,20 +9,21 @@
         "help" : {
             "title" : "HELP",
             "name" : "help",
-            "color" : "GREEN"
+            "color" : "GREEN",
+            "desc" : "Yardım komutu"
         },
         "ping" : {
             "title" : "Pong! 🏓",
             "name" : "ping",
             "desc" : "Ping-pong",
             "color" : "YELLOW",
-            "latencyfield" : "Latency",
-            "apifield" : "API Latency"
+            "latencyfield" : "Gecikme",
+            "apifield" : "API Gecikmesi"
         },
         "uptime" : {
             "title" : "Uptime",
             "name" : "uptime",
-            "desc" : "Getting Uptime",
+            "desc" : "Şu anki uptime",
             "color" : "RED",
             "field" : "Uptime : "
         },

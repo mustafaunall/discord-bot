@@ -1,4 +1,5 @@
 {
+    "logged_in": "Logged as {{BOT}}",
     "console_logs": {
         "command_loaded": "named command has been loaded successfully!",
         "helper_loaded": "named helper has been loaded successfully!",

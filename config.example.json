@@ -1,9 +1,9 @@
 {
-    "prefix": "!",
-    "bot_token": "MTAzNzgyNTU1ODc0ODM0NDMzMA.GBc929.epjuY4uBSB5YDBJ-f4qnS8cB3sELd_a5iuL09c",
+    "prefix": "",
+    "bot_token": "",
     "localization_file": "tr.json",
     "specific_channel": "no",
-    "channel_id": "1037826122848682064",
+    "channel_id": "",
     "channel_rename_interval": 360,
     "vip_role": ["1", "2"],
     "emoji_happy" : "😊",
