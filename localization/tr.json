@@ -12,6 +12,19 @@
             "color" : "GREEN",
             "desc" : "Komutları listeler"
         },
+        "cekilis" : {
+            "title" : "Çekiliş",
+            "name" : "cekilis",
+            "color" : "RED",
+            "desc" : "Çekiliş düzenler",
+            "field": "Kazanan: ##"
+        },
+        "delete" : {
+            "title" : "Toplu Mesaj Silme",
+            "name" : "delete",
+            "color" : "BLUE",
+            "desc" : "Toplu mesaj silmek için: !delete [mesaj_sayisi]"
+        },
         "ping" : {
             "title" : "Pong! 🏓",
             "name" : "ping",
